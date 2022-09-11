@@ -15,7 +15,6 @@ URL：https://signate.jp/competitions/735
 
 1. ベースモデルの訓練 (train.ipynb)　
     - BERTをベースに、K-fold法による最適化を行った。 
-
 2. モデルアンサンブルによる推論 (train_inference_ensemble.ipynb)
     - 1と同様にRoberta, Debertaの学習を行い、合計3つのモデルでアンサンブル（Voting）を行った。
 
@@ -23,7 +22,6 @@ URL：https://signate.jp/competitions/735
 
 - BERT系のNNによる分類
     - BERTの派生であるRobertaやDebertaは同等の精度が得られた。
-
 - モデルアンサンブル (Hard Voting)
     - Votingの他にBlendingやStackingなども候補になるが試していない。
 
